@@ -21,18 +21,18 @@ git clone https://github.com/ZakharSydorenko/blog.git
 ```
 Previous command will download all project files to your computer.
 
-After you  download project you need to run:
+After this you need to go to the blog folder:
+
+```console
+cd blog
+```
+
+Then you download project you need to run:
 
 ```ruby
 rake db:migrate
 ```
 This will migrate the database using the script in the db/migrate.
-
-After all this you need to go to the blog folder:
-
-```console
-cd blog
-```
 
 And run the command:
 ```ruby
