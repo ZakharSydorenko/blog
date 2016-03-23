@@ -1,4 +1,4 @@
-== README
+
 
 My first rails blog.
 
