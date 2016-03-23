@@ -1,14 +1,14 @@
 
 
-My first rails blog.
+#My first rails blog.
 
 By [ZakharSydorenko](https://www.facebook.com/zakhar.sydorenko.br/).
 
 This app is:
 
-*Rack based;
-*Complete MVC based on Rails engines;
-*Has posts, comments and auth.
+* Rack based;
+* Complete MVC based on Rails engines;
+* Has posts, comments and auth.
 
 It has one module: [devise](https://github.com/plataformatec/devise). It’s a flexible authentication solution for Rails.
 
@@ -54,7 +54,7 @@ Instead of rake you could write something you have problems with.
 
 ## Some tips, which can help you to understand how the app works.
 
-*Unsigned users can create only comments.
-*To register you need to click the button register.
-*As soon as you registered you can create, delete, edit posts and delete comments.
-*For exit click button log out.
+* Unsigned users can create only comments.
+* To register you need to click the button register.
+* As soon as you registered you can create, delete, edit posts and delete comments.
+* For exit click button log out.
