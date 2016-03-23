@@ -2,7 +2,7 @@
 
 #My first rails blog.
 
-By [ZakharSydorenko](https://www.facebook.com/zakhar.sydorenko.br/).
+By [ZakharSydorenko](https://www.facebook.com/zakhar.sydorenko/).
 
 This app is:
 
