@@ -1,28 +1,60 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first rails blog.
 
-Things you may want to cover:
+By [ZakharSydorenko](https://www.facebook.com/zakhar.sydorenko.br/).
 
-* Ruby version
+This app is:
 
-* System dependencies
+*Rack based;
+*Complete MVC based on Rails engines;
+*Has posts, comments and auth.
 
-* Configuration
+It has one module: [devise](https://github.com/plataformatec/devise). It’s a flexible authentication solution for Rails.
 
-* Database creation
+## Getting started
 
-* Database initialization
+Blog is based on Rails 4.2.6. To install this blog you should run command:
 
-* How to run the test suite
+```console
+git clone https://github.com/ZakharSydorenko/blog.git
+```
+Previous command will download all project files to your computer.
 
-* Services (job queues, cache servers, search engines, etc.)
+After you  download project you need to run:
 
-* Deployment instructions
+```ruby
+rake db:migrate
+```
+This will migrate the database using the script in the db/migrate.
 
-* ...
+After all this you need to go to the blog folder:
 
+```console
+cd blog
+```
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+And run the command:
+```ruby
+rails s
+```
+It will start your local server.
+
+Now you can open your browser and type:
+```console
+http://localhost:3000
+```
+
+You can also have some problems with the version of rake or something else.
+It can be easily solved by running:
+```ruby
+bundle update rake
+```
+Instead of rake you could write something you have problems with.
+
+## Some tips, which can help you to understand how the app works.
+
+*Unsigned users can create only comments.
+*To register you need to click the button register.
+*As soon as you registered you can create, delete, edit posts and delete comments.
+*For exit click button log out.
