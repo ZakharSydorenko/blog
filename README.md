@@ -40,6 +40,7 @@ rails s
 ```
 It will start your local server.
 
+
 Now you can open your browser and type:
 ```console
 http://localhost:3000
