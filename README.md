@@ -8,7 +8,7 @@ This app is:
 
 * Rack based;
 * Complete MVC based on Rails engines;
-* Has posts, comments and auth.
+* Has posts, comments, search and auth.
 
 It has one module: [devise](https://github.com/plataformatec/devise). It’s a flexible authentication solution for Rails.
 
@@ -59,3 +59,4 @@ Instead of rake you could write something you have problems with.
 * To register you need to click the button register.
 * As soon as you registered you can create, delete, edit posts and delete comments.
 * For exit click button log out.
+* You can do searching by title.
