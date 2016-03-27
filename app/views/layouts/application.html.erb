@@ -29,6 +29,12 @@
       <li><a href="https://github.com/ZakharSydorenko">GitHub</a></li>
       <li><a href="mailto:zakhar96@gmail.com">Email</a></li>
     </ul>
+
+  <%= form_tag(posts_path, :method => "get", id: "search-form") do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Posts" %>
+    <%= submit_tag "Search" %>
+
+  <% end %>
     <% if !user_signed_in? %>
       <p class="sign_in">Admin Login</p>
     <% end %>
@@ -48,6 +54,7 @@
           <button class="button"><%= link_to "Log out", destroy_user_session_path, :method => :delete%></button>
         </div>
       <% end %>
+
       <% if !user_signed_in? %>
         <div class="buttons">
           <button class="button"><%= link_to "Log in",new_user_session_path %></button>

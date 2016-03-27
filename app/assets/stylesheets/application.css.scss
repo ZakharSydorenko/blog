@@ -43,6 +43,28 @@ a {
 		right: 3em;
 		top: 3em;
 	}
+	#search-form{
+		padding-left: 4em;
+		input[type="submit"] {
+			outline: none;
+			background: transparent;
+			border: 1px solid #d6dce0;
+			padding: .5em 1.5em;
+			font-size: 0.9em;
+			border-radius: 1.5em;
+			margin-left: 3.5em;
+			margin-top: 0.5em;
+			&:hover {
+				border: 1px solid #33acb7;
+				color: #33acb7;
+			}
+		}
+		input[type="text"] {
+			height: 30px;
+			border: 1px solid #d6dce0;
+			border-radius: 0.3em;
+		}
+	}
 	ul {
 		list-style: none;
 		text-align: right;
